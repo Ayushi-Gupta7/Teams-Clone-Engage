@@ -1,0 +1,27 @@
+.h1{
+  text-align: center;
+  padding-top: 90px;
+  font-size: 35px;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: white;
+  letter-spacing: 0.17cm;
+}
+.body-color{
+  background-color: rgb(41, 31, 51);
+}
+
+
+.Meeting-left{
+  padding: 20px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+.Inside-button{
+  background-color: #9B72AA;
+  color: white;
+
+}
+.Meeting{
+  text-align: center;
+  padding-top: 40px;
+}
