@@ -34,35 +34,41 @@ Scrum is an **Agile** development methodology used in the development of softwar
 
 - #### **Week 1** : 
     1.  Learn about developement i.e HTML, CSS, Javascript, NodeJs
-    2.  Decide tech stack and architecture.
+    2.  Explored and decided what to use as a signaling server for establishing a peer-to-peer connection. (Two options were firebase or socket.io)
     3.  Learn about Git and GitHub.
+   
 
 - #### **Week 2** : 
-    1.  Work on the User Interface.
-    2.  Research about extra features.
-    3.  Exploration about Firebase and WebRTC.
-    4.  Complete Sign-in and Sign-up.
-    5.  Authenticate email and password.
-    #### *Bugs* : WebRTC implementation, Authentication.
+    1.  Got an overview of **WebRTC** and **PeerJs**
+    2.  Started working on backend part and adding minimal feature
+    3.  Build the basic UI
+    4.  Connected client side and server side
+    5.  Prepared the feature list and assigned them different priorities 
+    
+    **Challenges and bugs:** Was not able to stream video and audio due to few arguments of Peer object.
 
 - #### **Week 3** :
-    1.  Add extra features like mute, camera off, switch camera.
+    1.  Add extra features like mute,unmute, camera on and off.
     2.  Add chat feature during video call.
-    3.  Implementation of WebRTC.
-    4.  Exploration about Servers.
-    5.  Run application on local server.
-    6.  Update UI(Add splash screen, Add loading widgets).
-    #### *Bugs* : Not working globally, bugs in server deployment.
+    3.  Update UI
+    4.  Explored more about WebRTC
+    5.  Fixed bugs faced last week and finally they were resolved.
+    6.  Testing on local server
+   
+    
+    **Bugs** : Chats were broadcasting to all rooms and display name was not present.
 
 - #### **Week 4** :  
-    1.  Add app icon.
+    1.  Add title icon.
     2.  Server deployment on Heroku.
     3.  Global working(Testing on different networks).
     4.  Try to implement adapt feature.
-    5.  Create apk file(App deployment).
-    6.  Update README.
-    7.  Create demo video.
-    #### *Bugs* : Globally not working on some ISPs.
+    5.  Added Invite button and raise hand button
+    6.  Solved all the bugs related to chat 
+    7.  Update README.
+    8.  Create demo video.
+    
+    **Bugs** : Globally not working on some ISPs.
 
 ## Demo Links
 Site : https://team-clone-microsoft.herokuapp.com/
@@ -106,7 +112,7 @@ Now open http://localhost:3030/ on browser
 ### Built with
 | Name | Version | Description
 | ------ | ------ | ------ |
-| Node JS | 12.18.3 | Node.js is an open source development platform for executing JavaScript code server-side. It is useful for developing applications that require a persistent connection from the browser to the server and is suitable for real-time applications. Node.js is intended to run on a dedicated HTTP server and to employ a single thread with one process at a time. Node.js applications are event-based and run asynchronously.  |
+| Node JS | 14.17.3 | Node.js is an open source development platform for executing JavaScript code server-side. It is useful for developing applications that require a persistent connection from the browser to the server and is suitable for real-time applications. Node.js is intended to run on a dedicated HTTP server and to employ a single thread with one process at a time. Node.js applications are event-based and run asynchronously.  |
 | Socket.io | 4.1.2 | Socket.IO is a JavaScript library for realtime web applications. It enables realtime, bi-directional communication between web clients and servers. It has two parts: a client-side library that runs in the browser, and a server-side library for Node.js. Whenever an event occurs, the server will get it and push it to the concerned connected clients. |
 | Express | 4.17.1 | Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. It is an open source framework developed and maintained by the Node.js foundation. Express is used to build the web server that Socket.IO will work with. ExpressJS makes it easy to define routes and other things. |
 | PeerJs |  0.6.1 | PeerJS wraps the browser's WebRTC implementation to provide a complete, configurable, and easy-to-use peer-to-peer connection API. Equipped with nothing but an ID, a peer can create a P2P data or media stream connection to a remote peer. |
