@@ -73,7 +73,7 @@ Demo Video :
 To run the project on your local machine, follow the instructions:
 1. Clone the repository
 ```bash
-git clone 
+git clone https://github.com/Ayushi-Gupta7/Teams-Clone-Engage.git
 ```
 
 2. Change your current directory to repository folder and then install all the dependencies
