@@ -11,13 +11,17 @@ myVideoElement.muted = true;
 //creating peer object and adding TURN and STUN servers
 var peer = new Peer({
   'iceServers': [
+  {
+      'urls': 'turn:numb.viagenie.ca?transport=udp',
+      'credential': 'codes@123',
+      'username': 'geniusmark650@gmail.com'
+    },
+   
     {
       'urls': 'stun:stun.l.google.com:19302'
     },
     {
-      'urls': 'numb.viagenie.ca',
-      'credential': 'codes@123',
-      'username': 'geniusmark650@gmail.com'
+      'urls': 'stun:stun1.l.google.com:19302'
     },
    
   ]
