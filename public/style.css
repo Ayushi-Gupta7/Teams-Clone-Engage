@@ -93,7 +93,7 @@ video{
 #leave{
     text-decoration: none;
 }
-.leave-button{
+.leave-button:hover{
     background-color: black;
 }
 
