@@ -9,7 +9,6 @@ Realtime Video Chat application built under the Microsoft Engage Program 2021
  - [Getting started](#getting-started)
  - [Product Information](#product-information)
    - [Features](#features)
-   - [Screenshots](#screenshots)
    - [Built with](#built-with)
  - [Scopes of Improvement](#scopes-of-improvement)
 
@@ -73,7 +72,7 @@ Scrum is an **Agile** development methodology used in the development of softwar
 ## Demo Links
 Site : https://team-clone-microsoft.herokuapp.com/
 
-Demo Video :
+Demo Video : https://youtu.be/qyCDeltYLrU
 
 ## Getting Started
 To run the project on your local machine, follow the instructions:
@@ -107,7 +106,6 @@ Now open http://localhost:3030/ on browser
 7. Invite button functionality-automatically copies room link to clipboard.
 8. Raise hand functionality
 
-### Screenshots
 
 ### Built with
 | Name | Version | Description
