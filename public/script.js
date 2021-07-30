@@ -13,7 +13,6 @@ var peer = new Peer({
   'iceServers': [
   {
       'urls': 'turn:numb.viagenie.ca?transport=udp',
-      'credential': 'codes@123',
       'username': 'geniusmark650@gmail.com'
     },
    
